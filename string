@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char v[6]={'S','i','l','v','i','o'};
+    char aux[6];
+    int j=0;
+    for(int i=5;i>=0;i--){
+        aux[j]=v[i];
+        j++;
+    }
+    cout<<aux;
+}
